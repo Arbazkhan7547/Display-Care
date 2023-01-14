@@ -111,6 +111,22 @@ document.querySelectorAll(".t3m")
 }
 
 
+function mobilenav(){
+  document.querySelector("#nav #mobile-button")
+  .addEventListener("click",function(){
+      document.querySelector("#mobilenav").style.transform="translateX(0)";
+      document.querySelector("#nav").style.display ="none";
+
+  })
+  document.querySelector("#mnav i")
+  .addEventListener("click",function(){
+      document.querySelector("#mobilenav").style.transform="translateX(100%)";
+      document.querySelector("#nav").style.display ="flex";
+  })
+}
+
+
 loco();
 an1();
+mobilenav();
 lineAnimation();
