@@ -1,4 +1,49 @@
 @font-face{
+    font-family: "Roobert";
+    src: url("./Roobert-Medium.ttf");
+    font-weight: 500;
+}
+@font-face{
+    font-family: "Roobert";
+    src: url("./Roobert-Medium.ttf");
+    font-weight: 600;
+}
+@font-face{
+    font-family: "Roobert";
+    src: url("./Roobert-Medium.ttf");
+    font-weight: 700;
+}
+@font-face{
+    font-family: "Roobert";
+    src: url("./Roobert-Medium.ttf");
+    font-weight: 800;
+}
+@font-face{
+    font-family: "Roobert";
+    src: url("./Roobert-Medium.ttf");
+    font-weight: 900;
+}
+@font-face{
+    font-family: "Roobert";
+    src: url("./Roobert-Regular.ttf");
+    font-weight: 400;
+}
+@font-face{
+    font-family: "Roobert";
+    src: url("./Roobert-Regular.ttf");
+    font-weight: 300;
+}
+@font-face{
+    font-family: "Roobert";
+    src: url("./Roobert-Regular.ttf");
+    font-weight: 200;
+}
+@font-face{
+    font-family: "Roobert";
+    src: url("./Roobert-Regular.ttf");
+    font-weight: 100;
+}
+@font-face{
     font-family:"FH Giselle";
     src: url("./FHGiselle-Regular.ttf");
     font-weight:  600;
@@ -220,7 +265,7 @@ html,body{
    transition: all cubic-bezier(0.19, 1, 0.22, 1)1s;
 }
 #nav #right #cnt h3{
-    font-family: gilroy;
+    font-family:roobert;
     font-weight:  500;
     font-size: 1vw;
     color: #fff;
@@ -231,7 +276,7 @@ html,body{
  }
  #nav #logo p{
     text-transform: uppercase;
-    font-family: gilroy;
+    font-family:roobert;
     font-size: 10px;
     color: #b1aca8; 
 }
@@ -291,7 +336,7 @@ html,body{
     opacity: 0;
     width: 25%;
     text-align: left;
-    font-family: gilroy;
+    font-family:roobert;
     color:#bcb9b4;
    font-weight: 500;
 }
@@ -348,14 +393,14 @@ html,body{
  }
  .picture .text h5{
     text-transform: capitalize;
-    font-family: gilroy;
+    font-family:roobert;
     color: #c0c1c6;
     font-size: 1vw;
     font-weight: 500;
  }
  .picture .text h4{
     text-transform: capitalize;
-    font-family: gilroy;
+    font-family:roobert;
     color: #000;
     font-size: 1.3vw;
     font-weight: 500;
@@ -364,7 +409,7 @@ html,body{
  }
  .picture .text p{
     text-transform: capitalize;
-    font-family: gilroy;
+    font-family:roobert;
     color: #aeaca8;
     font-size: 1.1vw;
     font-weight: 300;
@@ -441,7 +486,7 @@ html,body{
 #part4 #section1 #mail h6{
     color: #fff;
     text-transform: capitalize;
-    font-family: gilroy;
+    font-family:roobert;
     font-size: 1vw;
     font-weight: 500;
 }
@@ -477,7 +522,7 @@ html,body{
     display: flex;
     align-items: flex-start;
     color: #fff;
-    font-family: gilroy;
+    font-family:roobert;
 }
 #section2 #text h6{
     color:#a698a9;
@@ -503,7 +548,7 @@ html,body{
 .t1m h5{
     color:#897ea0;
     text-transform: uppercase;
-    font-family: gilroy;
+    font-family:roobert;
     font-weight: 500;
     font-size: .8vw;
 }
@@ -517,7 +562,7 @@ html,body{
     color: #fff;
     margin-bottom: 2px;
     text-transform: capitalize;
-    font-family: gilroy;
+    font-family:roobert;
     font-weight: 500;
     font-size: 1.2vw;
 }
